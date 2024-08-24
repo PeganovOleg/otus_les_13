@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="782de296-1007-4fd0-8b74-d43c92115476">
+  <producedTypes>
+    <objectType typeId="f2200940-7362-46dd-ae3d-40db0252ea8f" valueTypeId="e6c2d6f0-ea2d-48ae-a89d-ee12a94dd680"/>
+    <managerType typeId="9ef31203-cded-41cc-b9f3-1c1c36810c84" valueTypeId="2b28827e-027b-4b83-8c0c-ed3eb129f80f"/>
+  </producedTypes>
+  <name>Продажи_1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи 1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Продажи_1.Form.Форма</defaultForm>
+  <attributes uuid="697e47ff-cb1b-42c0-937f-29e128380e06">
+    <name>ТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЗ</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9060ad11-ae58-4a4e-b7ad-eea5d522b57b">
+    <producedTypes>
+      <objectType typeId="6f392696-4673-4690-b336-bd2fae536b4a" valueTypeId="d1a26bb8-b538-4dee-b91c-af0b589ffc19"/>
+      <rowType typeId="177aa683-b18d-4633-8287-f2a4df1ec068" valueTypeId="dc2de191-9e92-4b74-b2ff-2596fbbee489"/>
+    </producedTypes>
+    <name>ТабличнаяЧасть1</name>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="903422b5-46b7-4725-9a51-d5e46687cf6b">
+      <name>Покупатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Покупатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2f6c5796-70cd-46d6-9107-dd77070f72fe">
+      <name>Товар</name>
+      <synonym>
+        <key>ru</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Товары</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c05d4f2-3406-453b-b921-6f29ff128e50">
+      <name>ОбщСум</name>
+      <synonym>
+        <key>ru</key>
+        <value>Общ сум</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="26ea9f2b-c3e6-4372-94ea-738882a4870c">
+      <name>ОбщКол</name>
+      <synonym>
+        <key>ru</key>
+        <value>Общ кол</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ba9acf50-58d2-4313-bc26-67e22bff36b6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a18accf9-fad6-49a2-b4b4-4d1138751abf">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>
