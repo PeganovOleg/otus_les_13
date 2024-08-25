@@ -354,6 +354,7 @@
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.СтоковыйТовар</catalogs>
+  <catalogs>Catalog.КомиссионныйТовар</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
