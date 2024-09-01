@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e5d2f9d-6851-4217-ae27-a025fb40b7f1">
+  <producedTypes>
+    <objectType typeId="838b49b8-36c6-47b6-a29e-b2ade810c795" valueTypeId="e2657656-066e-48bb-85fa-c2a77ea7c05f"/>
+    <refType typeId="e3cbb521-306e-4b1b-82a6-4beebffd4f76" valueTypeId="1306346a-6a06-4b20-ae62-ed92b7320bb4"/>
+    <selectionType typeId="78c89fe8-cd51-476c-8f0f-08b636b0bac4" valueTypeId="2da695a4-9234-4496-bda1-9fb6fb5f5626"/>
+    <listType typeId="fcc13d50-70e4-4471-bd6c-3141bdd2008e" valueTypeId="e58d1627-5d89-4091-8fd4-dbe1683dfec0"/>
+    <managerType typeId="6237c794-1406-4906-b621-3b3d62643f13" valueTypeId="9e6904d9-1b77-458d-8221-2bb106071bdd"/>
+  </producedTypes>
+  <name>ТехОтдел</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тех отдел</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТехОтдел.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТехОтдел.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТехОтдел.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e8b45e98-dd56-4f72-b078-ff33a47e1cb7">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b791874-498f-4b07-910d-964bd1eee0ba">
+    <name>ДатаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поступления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="267ab8be-b9f3-468f-b76c-6e24a4d7e946">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
