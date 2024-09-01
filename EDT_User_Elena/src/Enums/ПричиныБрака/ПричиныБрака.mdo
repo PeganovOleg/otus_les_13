@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d51a3e9e-0b6c-457d-a6d8-4d9b619b7c37">
+  <producedTypes>
+    <refType typeId="fa2d28c7-76ff-46f1-bc8b-5edca0ccc81c" valueTypeId="07b1e632-2908-4f88-86b0-3c40dbfca1aa"/>
+    <listType typeId="ca7c09cc-8412-4379-b475-c51165fc1afd" valueTypeId="220a2b45-35e9-4f30-bb4d-1e0e2f6f4f00"/>
+    <managerType typeId="58ed8e16-6727-4fb7-b79d-98d6228e61b4" valueTypeId="6a2c26fd-da28-497e-9241-196dde17fc33"/>
+  </producedTypes>
+  <name>ПричиныБрака</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины брака</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e64ddcdb-b869-42d5-ae4b-00425b2969d8">
+    <name>Транспортировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66567825-1786-4ed3-b20b-7931f82b7773">
+    <name>Заводской</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заводской</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

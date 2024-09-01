@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b02d3f8-b0a6-4998-8805-9fb434063bb8">
+  <producedTypes>
+    <objectType typeId="655b7373-973a-4d06-9126-6bf18edb1336" valueTypeId="46b7a527-a600-49ab-a296-86e455e3c3af"/>
+    <refType typeId="63335c35-599b-433d-b1cc-4a044784cbaf" valueTypeId="9e7a26a6-81d4-411c-8da0-de3537450ffd"/>
+    <selectionType typeId="9ffab473-36bd-46a6-a3eb-c4a61e5be6dc" valueTypeId="ebe82f43-6f22-495f-9342-a53fc2b3714a"/>
+    <listType typeId="7fcb433b-f285-4807-a117-618d5d454fe1" valueTypeId="81fe9532-fa2a-44f9-8bb1-f02871dbd1a4"/>
+    <managerType typeId="4d88dbb3-76a0-4a0a-a9a6-7eaaaed0aae4" valueTypeId="6c315e05-1b29-4732-b88d-031c8629f296"/>
+  </producedTypes>
+  <name>Брак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Брак</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Брак.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Брак.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0e7835e8-faed-4251-b582-6596f3791643">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Товары</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="706e0c74-796b-4f36-8afb-f89ad4eacd26">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Document>
